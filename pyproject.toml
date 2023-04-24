@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "patch-mock-test"
+version = "0.1.0"
+description = ""
+authors = ["Y-Kuro-u <yuuki.k.07.05@gmail.com>"]
+readme = "README.md"
+packages = [{include = "patch_mock_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
